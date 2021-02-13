@@ -1,0 +1,21 @@
+{
+  "name": "practicando-con-cypress",
+  "version": "1.0.0",
+  "description": "Tarea de las clases anteriores utilizada para practicar con cypress",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "empezar": "http-server",
+    "cypress-run": "cypress run",
+    "cypress-dev": "cypress open"
+  },
+  "author": "Juan Maria Fernandenz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "cypress": "^6.4.0"
+  }
+}
